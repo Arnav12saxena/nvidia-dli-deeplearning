@@ -19,7 +19,7 @@ I completed the final evaluation with **96.32% validation accuracy**, surpassing
 
 ---
 
-# 📌 1. Course Overview
+# 📌 Course Overview
 
 The NVIDIA DLI workshop teaches modern deep learning foundations using:
 
@@ -34,7 +34,7 @@ The course is structured as a sequence of Jupyter notebooks, each focusing on a 
 
 ---
 
-# 📁 2. Repository Contents
+# 📁 Repository Contents
 
 All workshop notebooks included:
 
@@ -64,7 +64,7 @@ media/
 
 ---
 
-# 📚 3. Key Concepts Learned
+# 📚 Key Concepts Learned
 
 ### ✔ Deep Learning Basics  
 - Neurons and layers  
@@ -109,9 +109,9 @@ media/
 
 ---
 
-# 📊 4. Notebook Summaries
+# 📊 Notebook Summaries
 
-## 📘 4.1 — MNIST (01_mnist.ipynb)
+## 📘 MNIST (01_mnist.ipynb)
 - Built first NN classifier for handwritten digits  
 - Flatten → Dense → ReLU → Softmax  
 - Trained with CrossEntropyLoss  
@@ -119,7 +119,7 @@ media/
 
 ---
 
-## ✋ 4.2 — American Sign Language (02_asl.ipynb)
+## ✋ American Sign Language (02_asl.ipynb)
 - Preprocessing A–Z gesture dataset  
 - Built CNN for classification  
 - Applied strong augmentation  
@@ -127,14 +127,14 @@ media/
 
 ---
 
-## 🔥 4.3 — Advanced ASL CNN (03_asl_cnn.ipynb)
+## 🔥 Advanced ASL CNN (03_asl_cnn.ipynb)
 - Added deeper convolution layers  
 - Introduced dropout & regularization  
 - Improved classification performance  
 
 ---
 
-## 🐶 4.4 — Doggy Door Classifier (05a_doggy_door.ipynb)
+## 🐶 Doggy Door Classifier (05a_doggy_door.ipynb)
 - Binary classification using transfer learning  
 - Loaded pretrained CNN  
 - Froze feature extractor  
@@ -143,7 +143,7 @@ media/
 
 ---
 
-## 🐕 4.5 — Presidential Doggy Door (05b_presidential_doggy_door.ipynb)
+## 🐕 Presidential Doggy Door (05b_presidential_doggy_door.ipynb)
 - Used pretrained **VGG16**  
 - Feature extraction + fine-tuning  
 - Unfroze final blocks with small LR  
@@ -151,7 +151,7 @@ media/
 
 ---
 
-## ✍️ 4.6 — NLP Basics (06_nlp.ipynb)
+## ✍️ NLP Basics (06_nlp.ipynb)
 - Tokenization  
 - Embedding layers  
 - Feedforward text classifiers  
@@ -159,7 +159,7 @@ media/
 
 ---
 
-# 🏆 5. Final Assessment — Fruit Freshness Classification
+# 🏆 Final Assessment — Fruit Freshness Classification
 ### ✔ Required Accuracy: **92%**  
 ### ✔ Achieved: **96.32%**
 
@@ -182,7 +182,7 @@ data/fruits/valid/
 
 ---
 
-# 🛠 5.2 Model Architecture (VGG16 Transfer Learning)
+# 🛠 Model Architecture (VGG16 Transfer Learning)
 
 ### ✔ Load Pretrained VGG16
 ```python
@@ -233,14 +233,14 @@ utils.validate(my_model, valid_loader, valid_N, loss_function)
 
 ---
 
-# 🎫 6. Certification
+# 🎫 Certification
 
 Successfully completed the **NVIDIA Deep Learning Institute — Fundamentals of Deep Learning** course.  
 (Certificate not added in repository intentionally.)
 
 ---
 
-# 📂 7. Project Structure
+# 📂 Project Structure
 
 ```
 nvidia-dli-deeplearning/
@@ -264,7 +264,7 @@ nvidia-dli-deeplearning/
 
 ---
 
-# 🚀 8. Skills Demonstrated
+# 🚀 Skills Demonstrated
 
 - PyTorch coding  
 - Training & validation loops  
@@ -280,7 +280,7 @@ nvidia-dli-deeplearning/
 
 ---
 
-# 🧑‍💻 9. Author
+# 📬 Contact
 
 **Arnav Saxena**  
 AI/ML · Deep Learning · Computer Vision  
