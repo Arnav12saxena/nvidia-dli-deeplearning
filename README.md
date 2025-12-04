@@ -244,10 +244,12 @@ Successfully completed the **NVIDIA Deep Learning Institute — Fundamentals of 
 
 ```
 nvidia-dli-deeplearning/
-│── 01_jupyterlab.ipynb
+│── 00_jupyterlab.ipynb
 │── 01_mnist.ipynb
 │── 02_asl.ipynb
 │── 03_asl_cnn.ipynb
+│── 04a_asl_augmentations.ipynb
+│── 04b_asl_predictions.ipynb
 │── 05a_doggy_door.ipynb
 │── 05b_presidential_doggy_door.ipynb
 │── 06_nlp.ipynb
