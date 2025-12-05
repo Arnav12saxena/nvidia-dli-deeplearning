@@ -52,15 +52,11 @@ Untitled.py
 untitled.md
 ```
 
-Optional (recommended) media folder:
+---
 
-```
-media/
-  mnist_predictions.png
-  asl_training_curves.png
-  doggydoor_results.png
-  fruit_classification_accuracy.png
-```
+# 🖼 JupyterLab Environment (from media folder)
+
+![JupyterLab Environment](media/jupyterlab_environment.png)
 
 ---
 
@@ -112,6 +108,7 @@ media/
 # 📊 Notebook Summaries
 
 ## 📘 MNIST (01_mnist.ipynb)
+*(Image missing in repo — expected: `media/mnist_predictions.png`)*  
 - Built first NN classifier for handwritten digits  
 - Flatten → Dense → ReLU → Softmax  
 - Trained with CrossEntropyLoss  
@@ -120,6 +117,7 @@ media/
 ---
 
 ## ✋ American Sign Language (02_asl.ipynb)
+*(Image missing in repo — expected: `media/asl_training_curves.png`)*  
 - Preprocessing A–Z gesture dataset  
 - Built CNN for classification  
 - Applied strong augmentation  
@@ -128,6 +126,7 @@ media/
 ---
 
 ## 🔥 Advanced ASL CNN (03_asl_cnn.ipynb)
+*(Image missing in repo — expected: `media/asl_training_curves.png`)*  
 - Added deeper convolution layers  
 - Introduced dropout & regularization  
 - Improved classification performance  
@@ -135,6 +134,7 @@ media/
 ---
 
 ## 🐶 Doggy Door Classifier (05a_doggy_door.ipynb)
+*(Image missing in repo — expected: `media/doggydoor_results.png`)*  
 - Binary classification using transfer learning  
 - Loaded pretrained CNN  
 - Froze feature extractor  
@@ -144,6 +144,7 @@ media/
 ---
 
 ## 🐕 Presidential Doggy Door (05b_presidential_doggy_door.ipynb)
+*(Image missing in repo — expected: `media/doggydoor_results.png`)*  
 - Used pretrained **VGG16**  
 - Feature extraction + fine-tuning  
 - Unfroze final blocks with small LR  
@@ -162,6 +163,8 @@ media/
 # 🏆 Final Assessment — Fruit Freshness Classification
 ### ✔ Required Accuracy: **92%**  
 ### ✔ Achieved: **96.32%**
+
+*(Image missing in repo — expected: `media/fruit_classification_accuracy.png`)*
 
 A 6-class image classification problem:
 
@@ -276,9 +279,9 @@ nvidia-dli-deeplearning/
 - Transfer learning  
 - Fine-tuning ImageNet models  
 - GPU-accelerated training  
-- Model evaluation (accuracy, loss, etc.)  
+- Model evaluation  
 - Handling custom datasets  
-- Applied machine learning workflow end to end  
+- End-to-end deep learning workflow  
 
 ---
 
@@ -288,5 +291,3 @@ nvidia-dli-deeplearning/
 AI/ML · Deep Learning · Computer Vision  
 📧 Email: **arnav12saxena@gmail.com**  
 🔗 LinkedIn: https://www.linkedin.com/in/arnav-saxena-a9a217367  
-
----
