@@ -108,7 +108,6 @@ untitled.md
 # 📊 Notebook Summaries
 
 ## 📘 MNIST (01_mnist.ipynb)
-*(Image missing in repo — expected: `media/mnist_predictions.png`)*  
 - Built first NN classifier for handwritten digits  
 - Flatten → Dense → ReLU → Softmax  
 - Trained with CrossEntropyLoss  
@@ -117,7 +116,6 @@ untitled.md
 ---
 
 ## ✋ American Sign Language (02_asl.ipynb)
-*(Image missing in repo — expected: `media/asl_training_curves.png`)*  
 - Preprocessing A–Z gesture dataset  
 - Built CNN for classification  
 - Applied strong augmentation  
@@ -126,7 +124,6 @@ untitled.md
 ---
 
 ## 🔥 Advanced ASL CNN (03_asl_cnn.ipynb)
-*(Image missing in repo — expected: `media/asl_training_curves.png`)*  
 - Added deeper convolution layers  
 - Introduced dropout & regularization  
 - Improved classification performance  
@@ -134,7 +131,6 @@ untitled.md
 ---
 
 ## 🐶 Doggy Door Classifier (05a_doggy_door.ipynb)
-*(Image missing in repo — expected: `media/doggydoor_results.png`)*  
 - Binary classification using transfer learning  
 - Loaded pretrained CNN  
 - Froze feature extractor  
@@ -144,7 +140,6 @@ untitled.md
 ---
 
 ## 🐕 Presidential Doggy Door (05b_presidential_doggy_door.ipynb)
-*(Image missing in repo — expected: `media/doggydoor_results.png`)*  
 - Used pretrained **VGG16**  
 - Feature extraction + fine-tuning  
 - Unfroze final blocks with small LR  
@@ -164,7 +159,6 @@ untitled.md
 ### ✔ Required Accuracy: **92%**  
 ### ✔ Achieved: **96.32%**
 
-*(Image missing in repo — expected: `media/fruit_classification_accuracy.png`)*
 
 A 6-class image classification problem:
 
